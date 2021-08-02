@@ -1,0 +1,4 @@
+frontend/node_modules
+frontend/build
+play_backend/target
+play_backend/logs
