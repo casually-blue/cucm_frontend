@@ -1,6 +1,7 @@
 frontend/node_modules
 frontend/build
 play_backend/target
+play_backend/public
 play_backend/logs
 play_backend/project/target
 play_backend/project/project/target
