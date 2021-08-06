@@ -9,3 +9,4 @@ play_backend/project/target/*
 play_backend/project/project/target/*
 play_backend/.gradle
 play_backend/.idea
+play_backend/gradle.properties
