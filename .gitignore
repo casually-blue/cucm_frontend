@@ -4,7 +4,6 @@ play_backend/target
 play_backend/public
 play_backend/logs
 play_backend/build
-play_backend/gradle
 play_backend/project/target/*
 play_backend/project/project/target/*
 play_backend/.gradle
