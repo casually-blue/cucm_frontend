@@ -7,8 +7,8 @@ It requires `npm` and JDK 11 to run. To execute it follow these commands.
 ```bash
 $ cd frontend
 $ npm install
-$ npm run build
-# this will publish the react app to the play public folders
-$ cd ../play_backend
+$ npm run start
+# In a seperate Terminal run:
+$ cd play_backend
 $ ./gradlew runPlay
 ```
