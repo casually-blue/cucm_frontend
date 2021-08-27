@@ -1,7 +1,7 @@
 import {Component} from "react";
 
 export class Home extends Component {
-    render() {
+    render(): JSX.Element {
         return (
           <div>
               <h2>Main Page</h2>

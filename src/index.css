@@ -1,8 +1,42 @@
-body {
-  background-color: #000000;
-  padding: 20px;
-  margin: 20px;
+html {
+  height: 100%;
 }
+
+body {
+  height: calc(100% - 20px);
+  margin: 0 20px 20px;
+  background-color: #000000;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+}
+
+.box .row.head{
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.foot {
+  flex: 0 1 auto;
+}
+
+.reactContent {
+  height: 100%;
+}
+
+.content{
+  height: fit-content;
+}
+
 h1, h2, p, ul, li {
   font-family: sans-serif;
   color: wheat;
@@ -38,3 +72,4 @@ ul.header li a {
 .active {
   background-color: blueviolet;
 }
+
