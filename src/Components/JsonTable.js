@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './JsonTable.css';
 
 export default class JsonTable extends React.Component {
     constructor(props) {

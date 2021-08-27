@@ -1,0 +1,8 @@
+.TableHead {
+    border-bottom: 3px solid black;
+}
+
+.TableCell {
+    border: 1px solid black;
+    white-space: nowrap;
+}
