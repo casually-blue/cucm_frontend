@@ -1,6 +1,12 @@
 import {Component} from "react";
 
 export class CUCM extends Component {
+    gen_array(): JSX.Element[] {
+        return [...Array(200)].map((e, i) => {
+            return (<p><br/>Line {i}</p>)
+        })
+    }
+
     render(): JSX.Element {
         return (
             <div>
